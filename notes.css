@@ -1,0 +1,113 @@
+
+        body {
+                /* Set the background image and its properties */
+                background-image: url('https://img.freepik.com/premium-photo/mockup-notebooks-set-stationery-work-study-blue-background-back-school_89386-2941.jpg?size=626&ext=jpg&ga=GA1.1.933601817.1717286400&semt=ais_user');
+                /* Set background size, position, and repeat properties as needed */
+                background-size: cover; /* Adjust as needed */
+                background-position: center; /* Adjust as needed */
+                background-repeat: no-repeat; /* Adjust as needed */
+                display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 15%;
+            }
+        
+
+        .container {
+border: 4px solid red ;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            width: 90%; /* Increased width for larger container */
+    max-width: 1200px; /* Increased max-width for larger container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            height: 50%;
+        }
+
+        h2 {
+            color: #a52b2b;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Apply styles to the body to center the container */
+
+
+/* Apply styles to the heading */
+.heading {
+    color: red; /* Red text color */
+    font-family: Arial, sans-serif; /* Font style */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase letters */
+    margin-bottom: 20px;
+}
+
+/* Style the sections */
+.sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style each section */
+.section {
+    border: 4px solid red; /* Thicker red border */
+    background-color: #e0f7fa; /* Light blue background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Increased padding for more space inside each section */
+    width: 45%;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Style the section headings */
+.section-heading {
+    font-family: Arial, sans-serif; /* Font style */
+    font-weight: bold; /* Bold text */
+    color: blue; /* Blue text color */
+    cursor: pointer; /* Pointer cursor */
+    text-transform: uppercase; /* Uppercase letters */
+    margin: 0;
+}
+
+/* Style the list */
+.section ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+/* Style the list items */
+.section ul li {
+    margin-bottom: 10px;
+    font-weight: bold; /* Bold text */
+}
+
+/* Style the links */
+.section ul li a {
+    text-decoration: none; /* Remove underline */
+    color: blue; /* Blue text color */
+}
+
+.section ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+        
+  

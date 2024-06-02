@@ -1,0 +1,51 @@
+/* Apply styles to the container */
+.container {
+    border: 2px solid red; /* Red border */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    justify-content: center;
+    margin: 15%;
+ 
+}
+
+/* Apply styles to the heading */
+.red-text {
+    color: rgb(51, 98, 216); /* Red text color */
+    font-family: Arial, sans-serif;
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase letters */
+} /* Font style */
+
+
+/* Style the list items */
+.container ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.container ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the links */
+.red-text {
+    text-decoration: none;
+    color: red; /* Remove underline */
+}
+
+.red-text:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.li{
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: light background color for contrast */
+}

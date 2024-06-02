@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <Link rel="stylesheet" href="notes.css">
+    <style>
+        body{
+            background-image: url('https://img.freepik.com/premium-photo/mockup-notebooks-set-stationery-work-study-blue-background-back-school_89386-2941.jpg?size=626&ext=jpg&ga=GA1.1.933601817.1717286400&semt=ais_user');
+            background-size: cover; /* Adjust as needed */
+            background-position: center; /* Adjust as needed */
+            background-repeat: no-repeat; /* Adjust as needed */
+            height: max-content;
+            width: max-content;
+        }
+        .section ul {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Notes</h2>
+        <ul>
+            <li><a href="https://gtustudy.in/gtu-books-study-material/#">GTU Study</a></li>
+            <li><a href="https://www.darshan.ac.in/gtu-study-material">Darshan</a></li>
+        </ul>
+            
+            
+    <script>
+        // Function to toggle visibility of options
+        function toggleOptions(sectionId) {
+            var section = document.getElementById(sectionId);
+            var optionsList = section.querySelector('ul');
+            optionsList.style.display = optionsList.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Add click event listeners to the section headings
+        document.getElementById('gtuSection').querySelector('h3').addEventListener('click', function() {
+            toggleOptions('gtuSection');
+        });
+        document.getElementById('darshanSection').querySelector('h3').addEventListener('click', function() {
+            toggleOptions('darshanSection');
+        });
+    </script>
+</body>
+</html>
